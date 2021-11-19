@@ -4,29 +4,7 @@ import subprocess as sb
 import webbrowser
 import speech_recognition as sr
 
-#speech recognition
-'''
-def speech():
-	r = sr.Recognizer()
-	with sr.Microphone() as source:
-		print("Start Saying...")
-		audio=r.listen(source)
-		print("Speech Done..!")
-	global data 
-	data = r.recognize_google(audio)		
-	try:
-		data=r.recognize_google(audio)
-	except sr.UnknownValueError:
-   		data="could not understand audio"	
-	return data	
-#d=speech()
-#print(data)	
-'''
-#pyttsx3.speak("Whats your name")
-#print("Whats ur name")
-#name=speech()
-#name=input()
-#print(name)
+
 
 pyttsx3.speak("Hey Welcome to my tools")
 pyttsx3.speak("Whats your name")
